@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* Main menu Begin */
+#mainmenu li:hover a,  #mainmenu li a.active{
+    color: #078e0c;
+}
+/* Main menu Ends */
+
+/* Nav Bar */
+.nav_wrap{
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Get Ticket Button */
+.nav_wrap .get-ticket-btn{
+    padding: 5px 20px;
+    margin: 10px 0;
+    width: 12rem;
+    height: 5rem;
+    background-color: #078d11;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+    transition: transform .5s;
+}
+.nav_wrap .get-ticket-btn:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 800px) {
+    /* .nav_wrap .get-ticket{
+        display: none;
+    } */
+
+    .nav_wrap{
+        display: block;
+    }
+}
+
+/* Slider Text */
+.small_heading span{
+    /* font-size: 28px; */
+    font-family: Georgia;
+    font-weight: 500;
+}
+
+.big_heading{
+    font-size: 80px;
+    font-family: Roboto, sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    em{
+        font-size: 15px;
+    }
+}
+
+/* Ticket Section & Vendor Section*/
+.ticket-wrap, .vendor-wrap{
+    background-color: #131313;
+}
+
+.ticket-section div, .vendor-section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.ticket-section div p, .vendor-section div p{
+    font-size: 30px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.vendor-section div p{
+    text-transform: uppercase;
+    
+}
+
+.ticket-btn, .vendor-btn{
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #078d11;
+    color: white;
+    padding: 20px 23px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    transition: transform .5s;
+}
+
+.ticket-btn:hover, .vendor-btn:hover{
+    transform: scale(1.1);
+}
+
+.vendor-btn:active{
+    color: white !important;
+}
+
+/* About Us Styling */
+.aboutUs_content{
+    color: white;
+}
+
+.call:active{
+    text-decoration: none !important;
+}
+
+.next-event{
+    font-style: italic;
+    color:#c6952b
+}
+
+.next-event-icon{
+    margin-left: 15px;
+}
+
+/* Footer Subscribe Button */
+.subscribe{
+    outline: none;
+    transition: transform .5s;
+}
+
+.subscribe:hover{
+    transform: scale(1.1);
+}
+
+.footer-icon{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.footer a:hover{
+    color: #eab856;
+}
+
+.footer li {
+    margin-top: 10px;
+}
+
+/* Gallery.html */
+.gallery-header{
+    background: #1a1a18 !important;
+    
+}
+
+/* gallery section */
+.gallery-content{
+    color: #ffffff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gallery-content h2{
+    margin-bottom: 10px;
+    color: #ffffff
+}
+
+.gallery-content p{
+    margin-bottom: 30px !important;
+    color: #c6952b;
+    font-style: italic;
+}
+
+/*  Designed By Unicus Section */
+.unicus-section{
+    text-align: center; 
+    color: #ffffff;
+}
+
+/* .u{color: #0a20cd;}
+.n{color: #e40001;}
+.i{color: #f98f03;}
+.c{color: #0a20cd;}
+.u{color: #2ca102;}
+.s{color: #e40505;}
+.dot{color: black;} */
+
+/* Newsletter Style */
+.close{
+    font-size: 45px;
+    opacity: 1;
+    color: red;
+    position: absolute;
+    right: 3%;
+}
+.close:hover{
+    opacity: .8;
+}
+
+/* Sponsor Section */
+.sponsor-wrap{
+    background-color: #070a10;
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding-top: 30px;
+}
+
+.sponsor-wrap .row div{
+    margin-bottom: 20px;
+}
+
+.sponsor-wrap .row img{
+    width: 100%;
+    
+    
+}
+
